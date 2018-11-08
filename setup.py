@@ -9,6 +9,8 @@ setup(
     license='MIT',
     description='Pull and update repositories',
     url='https://github.com/pikhovkin/pull-repos',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     scripts=[
         'pull_repos.py'
     ],
